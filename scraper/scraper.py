@@ -16,7 +16,7 @@ def capture_snapshot(url, output_file):
             f.write(html_content)
         
         browser.close()
-
+# TEST
 def extract_eligibility_requirements(html_content):
     soup = BeautifulSoup(html_content, 'html.parser')
 
