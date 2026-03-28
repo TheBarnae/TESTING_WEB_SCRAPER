@@ -146,7 +146,7 @@ def generate_diff_html_email(added, removed, output_html):
                 <th>New Value</th>
             </tr>
     """
-
+#secret
     for line in removed:
         html_content += f"""
             <tr class="removed">
