@@ -3,7 +3,7 @@ import shutil
 
 from playwright.sync_api import sync_playwright
 from bs4 import BeautifulSoup
-
+##GAY
 def capture_snapshot(url, output_file):
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)  # Launch browser in headless mode
